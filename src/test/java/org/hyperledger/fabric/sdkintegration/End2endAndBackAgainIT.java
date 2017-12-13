@@ -362,7 +362,7 @@ public class End2endAndBackAgainIT {
 
                     }
 
-                    client.setUserContext(sampleOrg.getUser(TESTUSER_1_NAME));
+                   // client.setUserContext(sampleOrg.getUser(TESTUSER_1_NAME));
 
 //
 //                    if( !changeContext ){
