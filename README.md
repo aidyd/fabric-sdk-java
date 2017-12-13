@@ -49,22 +49,6 @@ _Make sure you're using docker images at the level of the Fabric that matches th
 
 ### Using the SDK in your application
 
-Add below code in your `pom.xml` to download fabric-sdk-java-1.0.1
-
-```xml
-
-     <dependencies>
-        <dependency>
-            <groupId>org.hyperledger.fabric-sdk-java</groupId>
-            <artifactId>fabric-sdk-java</artifactId>
-            <version>1.0.1</version>
-         </dependency>
-     </dependencies>
-```
-
-<p &nbsp; />
-<p &nbsp; />
-
 `*************************************************`
 
 ## 1.1.0-SNAPSHOT builds
@@ -81,35 +65,6 @@ pom.xml
         </dependency>
 
 </dependencies>
-```
-
-Add to your maven's setting.xml typically in the .m2 directory under your home directory:
-```
-<profiles>
-      <profile>
-         <id>allow-snapshots</id>
-         <activation>
-            <activeByDefault>true</activeByDefault>
-         </activation>
-         <repositories>
-            <repository>
-               <id>snapshots-repo</id>
-               <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-               <releases>
-                  <enabled>false</enabled>
-               </releases>
-               <snapshots>
-                  <enabled>true</enabled>
-               </snapshots>
-            </repository>
-         </repositories>
-      </profile>
-</profiles>
-```
-
-
-
-
 
 ## Latest builds of Fabric and Fabric-ca v1.1.0
 
