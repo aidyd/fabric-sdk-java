@@ -596,7 +596,7 @@
                         <executions>
                             <execution>
                                 <id>attach-javadocs</id>
-                                <goals>
+                                <goals> 
                                     <goal>jar</goal>
                                 </goals>
                             </execution>
