@@ -414,7 +414,8 @@ public class End2endIT {
                     successful.clear();
                     failed.clear();
 
-                    client.setUserContext(sampleOrg.getUser(TESTUSER_1_NAME));
+                    //TODO Modify by outman delete this line 
+                    //client.setUserContext(sampleOrg.getUser(TESTUSER_1_NAME));
 
                     ///////////////
                     /// Send transaction proposal to all peers
